@@ -3,7 +3,7 @@
 #
 FROM golang:1.11-alpine as go-builder
 
-WORKDIR /go/src/github.com/in4it/http-echo/
+WORKDIR /go/src/github.com/jayanj/http-echo/
 
 COPY . .
 
