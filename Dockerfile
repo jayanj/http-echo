@@ -26,7 +26,7 @@ RUN mkdir -p /app && \
 
 WORKDIR /app
 
-COPY --from=go-builder /go/src/github.com/in4it/http-echo/http-echo .
+COPY --from=go-builder /go/src/github.com/jayanj/http-echo/http-echo .
 
 USER app
 
